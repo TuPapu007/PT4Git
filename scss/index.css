@@ -1,0 +1,446 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Cal_Sans";
+  src: url("../../font_family/calsans-semibold-webfont.woff") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  border: 0px solid black;
+}
+
+body .i_padiing {
+  padding: 9px 13px;
+}
+
+body .btn-otoño {
+  background-color: #ca520c;
+  border-color: #ca520c;
+  color: white;
+}
+
+body .titlo_gestor {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+body .classquit {
+  background: none !important;
+}
+
+body .div_temporada_animes #div_otoño_2 .b_card_left_otoño {
+  border-left: 0.25rem solid #ca520c;
+}
+
+body .div_temporada_animes #div_otoño_2 .b_card_left_otoño button {
+  color: #ca520c;
+}
+
+body .b_card_left_otoño {
+  border-left: 0.25rem solid #ca520c;
+}
+
+body .div_years {
+  color: black;
+}
+
+body .div_years ul {
+  list-style: none;
+}
+
+body .div_years ul li > a {
+  color: #3b3b3b;
+}
+
+body .div_years .div_hover {
+  color: black !important;
+}
+
+body .div_oculto {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all 350ms;
+  transition: all 350ms;
+}
+
+body .class_active {
+  height: 180px;
+  overflow: hidden;
+  -webkit-transition: all 350ms linear;
+  transition: all 350ms linear;
+}
+
+body .class_active_spe {
+  height: 33px;
+  overflow: hidden;
+  -webkit-transition: all 350ms linear;
+  transition: all 350ms linear;
+}
+
+body .contenido_anime .background_animes {
+  background-color: #f8f9fc;
+  border: 0px solid black;
+}
+
+body .contenido_anime .background_animes h3 {
+  font-weight: bold;
+}
+
+body .contenido_anime #div_filtro input {
+  width: 10%;
+  text-align: right;
+  padding-right: 1%;
+  margin-right: 2%;
+}
+
+body .contenido_anime #div_filtro span {
+  font-weight: 800;
+  padding-right: 2%;
+}
+
+body .contenido_anime .div_anime_individual {
+  overflow: hidden;
+  margin: 0px;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba {
+  margin-top: 0px;
+  position: relative;
+  padding: 20px;
+  font-size: 15px;
+  background-color: #2f3d49;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba p {
+  margin-bottom: 0px;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-name {
+  padding: 0px;
+  padding-left: 5%;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  font-size: 150%;
+  color: aliceblue;
+  font-weight: bold;
+  -webkit-transition: all linear 0.25s;
+  transition: all linear 0.25s;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-price {
+  font-size: 14px;
+  color: #48cfad;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-price p {
+  margin-bottom: 0px;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-category {
+  font-size: 14px;
+  color: white;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-category p {
+  margin-bottom: 0px;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-category p a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: all linear 0.25s;
+  transition: all linear 0.25s;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-category p a:hover {
+  color: #5fa8e1;
+  text-decoration: none;
+  -webkit-transition: all linear 0.25s;
+  transition: all linear 0.25s;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons {
+  position: absolute;
+  bottom: 28px;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  color: #fff;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .fa {
+  margin: -8px;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .fa-plus,
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .fa-heart,
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .fa-list-ul {
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .div_add_icon .fa-plus:hover {
+  color: #3a9cec;
+  cursor: pointer;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  transition: all 200ms;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .div_match_icon .fa-heart:hover {
+  color: #d62d1d;
+  cursor: pointer;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .div_ver_lista_icon .fa-list-ul:hover {
+  color: #0ba318;
+  cursor: pointer;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+@media (max-width: 1399.98px) {
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba {
+    background-color: #2f3d49;
+    margin-top: 0px;
+    position: relative;
+    padding: 30px;
+  }
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-name {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba {
+    background-color: #2f3d49;
+    margin-top: 0px;
+    position: relative;
+    padding: 22px;
+  }
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-name {
+    font-size: 88%;
+  }
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .fa-link,
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .fa-trash-can,
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .fa-pen-to-square {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba {
+    background-color: #2f3d49;
+    margin-top: -57%;
+    position: relative;
+    padding: 40px;
+  }
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-name {
+    font-size: 125%;
+  }
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .fa-link,
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .fa-trash-can,
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .fa-pen-to-square {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba {
+    background-color: #2f3d49;
+    margin-top: 0px;
+    position: relative;
+    padding: 18px;
+  }
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-name {
+    font-size: 105%;
+  }
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .fa-link,
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .fa-trash-can,
+  body .contenido_anime .div_anime_individual .profile-card-2 .prueba .profile-icons .fa-pen-to-square {
+    font-size: 70%;
+  }
+}
+
+body #wrapper ul li a {
+  color: black;
+}
+
+body #wrapper ul li a #inicio {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+body #wrapper ul .li_listas .colapsoss .div_lista_individual {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+}
+
+body #wrapper ul .li_listas .colapsoss .div_lista_individual .fa-check .fa-pen .fa-trash-can {
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+body #wrapper ul .li_listas .colapsoss .div_lista_individual .fa-check:hover {
+  cursor: pointer;
+  color: #6fc024;
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+body #wrapper ul .li_listas .colapsoss .div_lista_individual .fa-pen:hover {
+  color: #3a9cec;
+  cursor: pointer;
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+body #wrapper ul .li_listas .colapsoss .div_lista_individual .fa-trash-can:hover {
+  color: #d62d1d;
+  cursor: pointer;
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+body #wrapper ul .li_listas .colapsoss .div_lista_individual input {
+  background-color: #fff;
+}
+
+body #Footer {
+  background-color: #5fa8e1;
+}
+
+body #Footer span {
+  color: white;
+}
+
+body .esconder {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  body .esconder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .esconder_2 {
+    display: none;
+  }
+}
+
+body #ID_MODAL_CARRITO .modal-body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+body #ID_MODAL_CARRITO #div_relacion .div_product {
+  height: 80px;
+}
+
+body #ID_MODAL_CARRITO #div_relacion .img_product_carrito {
+  width: 100%;
+}
+
+body #ID_MODAL_CARRITO #div_relacion .div_p p {
+  margin-bottom: 0px;
+}
+
+body #ID_MODAL_CARRITO #div_relacion .div_p textarea {
+  overflow-y: hidden;
+}
+
+body #ID_MODAL_CARRITO #div_relacion .div_p_precio {
+  margin: 0px !important;
+  line-height: 77px;
+}
+
+body #ID_MODAL_CARRITO #div_relacion .div_p_precio .dinero {
+  color: #48cfad;
+}
+
+body #ID_MODAL_CARRITO #div_relacion .div_p_precio .fa-trash-can {
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+body #ID_MODAL_CARRITO #div_relacion .div_p_precio .fa-trash-can:hover {
+  color: #f02310;
+  cursor: pointer;
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+body #ID_MODAL_LISTAS #div_listas .fa-plus .fa-pen .fa-trash-can {
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+body #ID_MODAL_LISTAS #div_listas .fa-plus:hover {
+  color: #0ba318;
+  cursor: pointer;
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+body #ID_MODAL_LISTAS #div_listas .fa-pen:hover {
+  color: #3a9cec;
+  cursor: pointer;
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+body #ID_MODAL_LISTAS #div_listas .fa-trash-can:hover {
+  color: #d62d1d;
+  cursor: pointer;
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+body #ID_MODAL_FAVO #div_favo .div_p_precio {
+  margin: 0px !important;
+  line-height: 77px;
+}
+
+body #ID_MODAL_FAVO #div_favo .img_product_carrito {
+  width: 100%;
+}
+
+body #ID_MODAL_FAVO #div_favo .fa-plus .fa-pen .fa-heart {
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+body #ID_MODAL_FAVO #div_favo .fa-plus:hover {
+  color: #0ba318;
+  cursor: pointer;
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+body #ID_MODAL_FAVO #div_favo .fa-pen:hover {
+  color: #3a9cec;
+  cursor: pointer;
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+
+body #ID_MODAL_FAVO #div_favo .fa-heart:hover {
+  color: #d62d1d;
+  cursor: pointer;
+  -webkit-transition: all linear 200ms;
+  transition: all linear 200ms;
+}
+/*# sourceMappingURL=index.css.map */

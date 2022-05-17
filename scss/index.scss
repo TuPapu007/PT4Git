@@ -1,0 +1,413 @@
+$terceary-color: #2f3d49;
+
+$color_otoño: #ca520c;
+@font-face {
+    font-family: "Cal_Sans";
+    src: url("../../font_family/calsans-semibold-webfont.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+* {
+    border: 0px solid black;
+}
+body {
+    .i_padiing {
+        padding: 9px 13px;
+    }
+    .btn-otoño {
+        background-color: $color_otoño;
+        border-color: $color_otoño;
+        color: white;
+    }
+    .titlo_gestor {
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    .classquit {
+        background: none !important;
+    }
+    .div_temporada_animes {
+        #div_otoño_2 {
+            .b_card_left_otoño {
+                border-left: 0.25rem solid #ca520c;
+                button {
+                    color: #ca520c;
+                }
+            }
+        }
+    }
+    .b_card_left_otoño {
+        border-left: 0.25rem solid #ca520c;
+    }
+
+    .div_years {
+        color: black;
+        ul {
+            list-style: none;
+            li > a {
+                color: rgb(59, 59, 59);
+            }
+        }
+        .div_hover {
+            color: black !important;
+        }
+    }
+    .div_oculto {
+        height: 0;
+        overflow: hidden;
+
+        transition: all 350ms;
+    }
+
+    .class_active {
+        height: 180px;
+        overflow: hidden;
+
+        transition: all 350ms linear;
+    }
+    .class_active_spe {
+        height: 33px;
+        overflow: hidden;
+
+        transition: all 350ms linear;
+    }
+
+    .contenido_anime {
+        .background_animes {
+            // background-color: #edeef1 !important;
+            background-color: #f8f9fc;
+            border: 0px solid black;
+            h3 {
+                font-weight: bold;
+            }
+        }
+        #div_filtro {
+            input {
+                width: 10%;
+                text-align: right;
+                padding-right: 1%;
+                margin-right: 2%;
+            }
+            span {
+                font-weight: 800;
+                padding-right: 2%;
+            }
+        }
+
+        .conf_row {
+            // margin-left: 10px;
+            // margin-right: 10px;
+            // margin-top: 20px;
+            // margin-bottom: 20px;
+        }
+        .div_anime_individual {
+            overflow: hidden;
+            margin: 0px;
+            .profile-card-2 {
+                overflow: hidden;
+                // box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.66);
+
+                max-width: 100%;
+                .prueba {
+                    margin-top: 0px;
+                    position: relative;
+                    padding: 20px;
+                    font-size: 15px;
+                    background-color: #2f3d49;
+                    p {
+                        margin-bottom: 0px;
+                    }
+                    .profile-name {
+                        padding: 0px;
+                        padding-left: 5%;
+                        left: 0;
+                        bottom: 10px;
+                        width: 100%;
+                        font-size: 150%;
+                        color: aliceblue;
+                        font-weight: bold;
+                        transition: all linear 0.25s;
+                        //Hacer media cmabioando el tamanyo de la letra
+                    }
+                    .profile-price {
+                        font-size: 14px;
+                        color: #48cfad;
+                        p {
+                            margin-bottom: 0px;
+                        }
+                    }
+                    .profile-category {
+                        font-size: 14px;
+                        color: white;
+                        p {
+                            margin-bottom: 0px;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                transition: all linear 0.25s;
+                            }
+                            a:hover {
+                                color: #5fa8e1;
+                                text-decoration: none;
+                                transition: all linear 0.25s;
+                            }
+                        }
+                    }
+
+                    .profile-icons {
+                        position: absolute;
+                        bottom: 28px;
+                        left: 0;
+                        bottom: 10px;
+
+                        width: 100%;
+                        color: #fff;
+                        .fa {
+                            margin: -8px;
+                        }
+                        .fa-plus,
+                        .fa-heart,
+                        .fa-list-ul {
+                            transition: all 200ms;
+                        }
+                        .div_add_icon .fa-plus:hover {
+                            color: rgb(58, 156, 236);
+                            cursor: pointer;
+                            transition: all 200ms;
+                            transition: all 200ms;
+                        }
+
+                        .div_match_icon .fa-heart:hover {
+                            color: rgb(214, 45, 29);
+                            cursor: pointer;
+                            transition: all 200ms;
+                        }
+                        .div_ver_lista_icon .fa-list-ul:hover {
+                            color: rgb(11, 163, 24);
+                            cursor: pointer;
+                            transition: all 200ms;
+                        }
+                    }
+                }
+                @media (max-width: 1399.98px) {
+                    .prueba {
+                        background-color: #2f3d49;
+                        margin-top: 0px;
+                        position: relative;
+                        padding: 30px;
+                        .profile-name {
+                            font-size: 100%;
+                        }
+                    }
+                }
+                @media (max-width: 1199.98px) {
+                    .prueba {
+                        background-color: #2f3d49;
+                        margin-top: 0px;
+                        position: relative;
+                        padding: 22px;
+                        .profile-name {
+                            font-size: 88%;
+                        }
+                        .profile-icons {
+                            .fa-link,
+                            .fa-trash-can,
+                            .fa-pen-to-square {
+                                font-size: 70%;
+                            }
+                        }
+                    }
+                }
+                @media (max-width: 991.98px) {
+                    .prueba {
+                        background-color: #2f3d49;
+                        margin-top: -57%;
+                        position: relative;
+                        padding: 40px;
+                        .profile-name {
+                            font-size: 125%;
+                        }
+                        .profile-icons {
+                            .fa-link,
+                            .fa-trash-can,
+                            .fa-pen-to-square {
+                                font-size: 100%;
+                            }
+                        }
+                    }
+                }
+                @media (max-width: 767.98px) {
+                    .prueba {
+                        background-color: #2f3d49;
+                        margin-top: 0px;
+                        position: relative;
+                        padding: 18px;
+                        .profile-name {
+                            font-size: 105%;
+                        }
+                        .profile-icons {
+                            .fa-link,
+                            .fa-trash-can,
+                            .fa-pen-to-square {
+                                font-size: 70%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #wrapper {
+        ul {
+            li {
+                a {
+                    color: black;
+
+                    #inicio {
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                }
+            }
+            .li_listas {
+                .colapsoss {
+                    .div_lista_individual {
+                        display: flex !important;
+                        padding: 0.5rem 1rem;
+                        margin: 0 0.5rem;
+                        .fa-check .fa-pen .fa-trash-can {
+                            transition: all linear 200ms;
+                        }
+                        .fa-check:hover {
+                            cursor: pointer;
+
+                            color: rgb(111, 192, 36);
+                            transition: all linear 200ms;
+                        }
+                        .fa-pen:hover {
+                            color: rgb(58, 156, 236);
+                            cursor: pointer;
+                            transition: all linear 200ms;
+                        }
+                        .fa-trash-can:hover {
+                            color: rgb(214, 45, 29);
+                            cursor: pointer;
+                            transition: all linear 200ms;
+                        }
+                        input {
+                            background-color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #Footer {
+        background-color: #5fa8e1;
+        span {
+            color: white;
+        }
+    }
+    .esconder {
+        display: none;
+    }
+    @media (max-width: 767.98px) {
+        .esconder {
+            display: flex;
+        }
+        .esconder_2 {
+            display: none;
+        }
+    }
+    #ID_MODAL_CARRITO {
+        .modal-body {
+            padding-top: 0px;
+
+            padding-bottom: 0px;
+        }
+
+        #div_relacion {
+            .div_product {
+                height: 80px;
+            }
+            .img_product_carrito {
+                width: 100%;
+            }
+            .div_p {
+                p {
+                    margin-bottom: 0px;
+                }
+                textarea {
+                    overflow-y: hidden;
+                }
+            }
+            .div_p_precio {
+                margin: 0px !important;
+                line-height: 77px;
+                .dinero {
+                    color: #48cfad;
+                }
+                .fa-trash-can {
+                    transition: all linear 200ms;
+                }
+
+                .fa-trash-can:hover {
+                    color: rgb(240, 35, 16);
+                    cursor: pointer;
+                    transition: all linear 200ms;
+                }
+            }
+        }
+    }
+    #ID_MODAL_LISTAS {
+        #div_listas {
+            .fa-plus .fa-pen .fa-trash-can {
+                transition: all linear 200ms;
+            }
+            .fa-plus:hover {
+                color: rgb(11, 163, 24);
+                cursor: pointer;
+                transition: all linear 200ms;
+            }
+            .fa-pen:hover {
+                color: rgb(58, 156, 236);
+                cursor: pointer;
+                transition: all linear 200ms;
+            }
+            .fa-trash-can:hover {
+                color: rgb(214, 45, 29);
+                cursor: pointer;
+                transition: all linear 200ms;
+            }
+        }
+    }
+    #ID_MODAL_FAVO {
+        #div_favo {
+            .div_p_precio {
+                margin: 0px !important;
+                line-height: 77px;
+            }
+            .img_product_carrito {
+                width: 100%;
+            }
+            .fa-plus .fa-pen .fa-heart {
+                transition: all linear 200ms;
+            }
+            .fa-plus:hover {
+                color: rgb(11, 163, 24);
+                cursor: pointer;
+                transition: all linear 200ms;
+            }
+            .fa-pen:hover {
+                color: rgb(58, 156, 236);
+                cursor: pointer;
+                transition: all linear 200ms;
+            }
+            .fa-heart:hover {
+                color: rgb(214, 45, 29);
+                cursor: pointer;
+                transition: all linear 200ms;
+            }
+        }
+    }
+}
